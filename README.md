@@ -1,7 +1,7 @@
-#🎮 Coloring Game (Minimum Repainting Steps)
+# 🎮 Coloring Game (Minimum Repainting Steps)
 
-##Problem Summary
-###You are given a row of n painted cells. Each cell i has an initial color c[i]. Your goal is to make all cells the same color using the minimum number of repaint operations.
+## Problem Summary
+### You are given a row of n painted cells. Each cell i has an initial color c[i]. Your goal is to make all cells the same color using the minimum number of repaint operations.
 
 ## Rules:
 Two cells i and j are in the same color component if every cell between them (inclusive) has the same color.
