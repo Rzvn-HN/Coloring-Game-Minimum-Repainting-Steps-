@@ -12,5 +12,15 @@ You can only change components that include your starting cell (which is chosen 
 
 Output the minimum number of repaint steps needed to make all cells the same color.
 
+## Time complexity:
+
+* The code first removes consecutive duplicates from the array → **O(n)**.
+* Then it fills a 2D DP table using nested loops → **O(n²)** in the worst case.
+* Each DP state is computed in **constant time**.
+
+** Total Time Complexity: O(n²)**
+(where `n` is the number of cells in the original input).
+
+
 ## 
 hw4-anyl-algo
